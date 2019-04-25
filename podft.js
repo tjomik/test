@@ -4,7 +4,7 @@ a.click();
 }
 
 function showElements(){
-    var btn = document.getElementById('completeButton');
+    var btn = document.createElement('button');
     var text = document.createElement('div');
     text.innerHTML = 'AAAA';
     document.body.appendChild(text);
