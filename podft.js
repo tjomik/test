@@ -8,7 +8,7 @@ function showElements(){
     var text = document.createElement('div');
     text.innerHTML = 'AAAA';
     document.body.appendChild(text);
-    btn.innerHTML = 'Заполнить';
+    btn.innerText = 'Заполнить';
     btn.onclick = autocomplete();
     document.body.appendChild(btn);
 
