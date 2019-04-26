@@ -13,7 +13,7 @@ function showElements(){
     document.body.appendChild(btn);
     var text1 = document.createElement('div');
     text1.innerHTML = 'BBB';
-    document.body.appendChild(text);
+    document.body.appendChild(text1);
 
 }
 document.addEventListener('DOMContentLoaded', showElements);
