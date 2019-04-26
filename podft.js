@@ -17,6 +17,9 @@ function showElements(){
     var text2 = document.createElement('div');
     text2.innerHTML = 'CCC';
     document.body.appendChild(text2);
+    var text3 = document.createElement('div');
+    text3.innerHTML = 'DDD';
+    document.body.appendChild(text3);
 
 }
 document.addEventListener('DOMContentLoaded', showElements);
