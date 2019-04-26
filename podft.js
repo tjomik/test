@@ -9,8 +9,11 @@ function showElements(){
     text.innerHTML = 'AAAA';
     document.body.appendChild(text);
     btn.innerText = 'Заполнить';
-    btn.onclick = autocomplete();
+    //btn.onclick = autocomplete();
     document.body.appendChild(btn);
+    var text1 = document.createElement('div');
+    text1.innerHTML = 'BBB';
+    document.body.appendChild(text);
 
 }
 document.addEventListener('DOMContentLoaded', showElements);
