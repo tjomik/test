@@ -15,7 +15,7 @@ function showElements(){
     text1.innerHTML = 'BBB';
     document.body.appendChild(text1);
     var text2 = document.createElement('div');
-    text1.innerHTML = 'CCC';
+    text2.innerHTML = 'CCC';
     document.body.appendChild(text2);
 
 }
