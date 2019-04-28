@@ -55,6 +55,22 @@ function function_for_78(){
         }
     })}
 
+function function_for_79(){
+    $.ajax({
+        url:ShowPoint(79),
+        success: function(){
+            eval('DATA.s79=-1'); AddSectionXML(79,0, false); doEvalScript(79);Ev(0);function_for_78();
+        }
+    })}
+
+function function_for_80(){
+    $.ajax({
+        url:ShowPoint(80),
+        success: function(){
+            eval('DATA.s80=1');  AddSectionXML(80,1,false);doEvalScript(80);Ev(1);function_for_79();
+        }
+    })}
+
 var btn = document.createElement("button");
 //btn.innerHTML = "<button onclick=\"$.ajax({ url:ShowPoint(82),   success: function(){ eval('DATA.s82=1');  AddSectionXML(82,1,false);doEvalScript(82);Ev(1);}})\">Выполнить</button>";
 btn.innerHTML = "Выполнить";
