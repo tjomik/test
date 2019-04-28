@@ -1,25 +1,61 @@
-function autocomplete(){
-a = document.getElementById("ind_99");
-a.click();
-}
 
-function showElements(){
-    var btn = document.createElement('button');
-    var text = document.createElement('div');
-    text.innerHTML = 'AAAA';
-    document.body.appendChild(text);
-    btn.innerText = 'Заполнить';
-    //btn.onclick = autocomplete();
-    document.body.appendChild(btn);
-    var text1 = document.createElement('div');
-    text1.innerHTML = 'BBB';
-    document.body.appendChild(text1);
-    var text2 = document.createElement('div');
-    text2.innerHTML = 'CCC';
-    document.body.appendChild(text2);
-    var text3 = document.createElement('div');
-    text3.innerHTML = 'DDD';
-    document.body.appendChild(text3);
 
-}
-document.addEventListener('DOMContentLoaded', showElements);
+function function_for_61(){
+    $.ajax({
+        url:ShowPoint(61),
+        success: function(){
+            eval('DATA.s61=-1');
+            AddSectionXML(61,0, false);
+            doEvalScript(61);
+            Ev(0);
+        }})}
+
+function function_for_82(){
+    $.ajax({
+        url:ShowPoint(82),
+        success: function(){
+            eval('DATA.s82=2');
+            AddSectionXML(82,1,false);
+            doEvalScript(82);
+            Ev(1);
+            function_for_61();
+        }
+    })}
+
+function function_for_81(){
+    $.ajax({
+        url:ShowPoint(81),
+        success: function(){
+            eval('DATA.s81=2');
+            AddSectionXML(81,1,false);
+            doEvalScript(81);
+            Ev(1);
+            function_for_82();
+        }
+    })}
+
+function function_for_54(){
+    $.ajax({
+        url:ShowPoint(54),
+        success: function(){
+            eval('DATA.s54=2');
+            AddSectionXML(54,1,false);
+            doEvalScript(54);
+            Ev(1);
+            function_for_81();
+        }
+    })}
+
+function function_for_78(){
+    $.ajax({
+        url:ShowPoint(78),
+        success: function(){
+            eval('DATA.s78=-1'); AddSectionXML(78,0, false); doEvalScript(78);Ev(0);
+            function_for_54();
+        }
+    })}
+
+
+
+
+
