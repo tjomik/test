@@ -1,4 +1,9 @@
-
+var btn = document.createElement("button");
+//btn.innerHTML = "<button onclick=\"$.ajax({ url:ShowPoint(82),   success: function(){ eval('DATA.s82=1');  AddSectionXML(82,1,false);doEvalScript(82);Ev(1);}})\">Выполнить</button>";
+btn.innerHTML = "Выполнить";
+btn.onclick = function_for_78;
+var place = document.getElementById('iss_name');
+place.appendChild(btn);
 
 function function_for_61(){
     $.ajax({
